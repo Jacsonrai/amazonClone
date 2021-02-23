@@ -1,0 +1,71 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: 1;
+    min-width: 100px;
+    width: 100%;
+    padding:20px;
+    margin: 10px;
+    justify-content: flex-end;
+    align-items: center;
+   
+    
+}
+.product>img{
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+    
+}
+.product__info{
+    height: 100px;
+    margin-bottom: 15px;
+    text-align: left;
+    width: 100%;
+    
+}
+.product__price{
+    margin-top: 5px;
+}
+.product>button{
+    background:#f0c14b;
+    border: 1px solid;
+    margin-top:10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111111;
+}
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    background-color:#f3f3f3;
+    border:1px solid #dddddd;
+    border-radius:3px;
+}
+.subtotal__gift{
+    display: flex;
+    align-items: center;
+
+}
+.subtotal__gift>input{
+    margin-right:5px;
+}
+.subtotal>button{
+    background:#f0c14b;
+    border-radius:2px;
+    width:100px;
+    height: 40px;
+    border: 2px solid;
+    margin-top: 10px;
+    border-color: #a88734#9c7e31 #846a29;
+    columns: #111111;    
+}
+.product:hover{
+    transform: scale(1.03);
+  
+}
